@@ -136,6 +136,7 @@
             <a href="mba.html">MBA</a>
         </div>
     </div>
+    
     <center>
         <div style="background: #fff;width:90vw;margin:5vw;padding-top:2vw;margin-top:0;">
             <a href="events.html">
@@ -157,6 +158,18 @@
 
         </div>
     </center>
+    <section style="width: 90vw;margin: 5vw;background-color: white;">
+        <center><h2 style="font-size: 3vw;">TECHVIDYA</h2></center>
+        <p style="margin: 5vw;">Techvidya is our annual state level technical fest,it is festival organized to host events related to various technical aspects.This is an opportunity to showcase your technical skills by participating in some events.</p>
+        <center><a href="explore.html" style="background-color: #e49c30 !important;height: 6vw;
+        font-weight: bolder;
+        color: white;
+        text-align: center;
+        border-radius: 1vw;
+        padding: 1vw;margin: 5vw;
+">See More</a></center>
+        <img class="img1" style="width:80vw;margin-left:5vw;height: 35vw;margin-top: 5vw;margin-bottom: 5vw;" src="./images/poster.jpg">
+    </section>
 
 
     <footer>
@@ -197,6 +210,24 @@
         </div><div>
     </footer>
     <script src="./script/script.js"></script>
+    <script>
+        function yourFunction() {
+            let myImage = document.querySelector('.img1');
+            let mySrc = myImage.getAttribute('src');
+            if (mySrc === './images/poster.jpg') {
+                myImage.setAttribute('src', './images/poster2k17.jpg');
+            } else if (mySrc === "./images/poster2k17.jpg") {
+                myImage.setAttribute('src', './images/poster2k19.jpeg');
+            }
+            else {
+                myImage.setAttribute('src', './images/poster.jpg');
+            }
+            setTimeout(yourFunction, 5000);
+        }
+
+        yourFunction();
+        
+    </script>
 </body>
 
 </html>
