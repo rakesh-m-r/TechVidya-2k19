@@ -2,3 +2,5 @@ node_modules
 package.json
 package-lock.json
 webpack.config.json
+jsconfig.json
+/typings
