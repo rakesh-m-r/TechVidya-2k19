@@ -1,4 +1,5 @@
-
+require('../style/style.css');
+require('../style/event.css');
 function  menuopen(){
     document.querySelector(".menu").style="visibility:hidden";
     document.querySelector(".op1").style=" display: grid; width: 94%;text-align: center;padding:15px;font-size:3vw"
