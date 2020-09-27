@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body{
   margin: 0;
@@ -354,3 +355,362 @@ h1{
 .m1:hover,.m2:hover,.m3:hover{
   color: white !important;
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: rgba(30, 30, 30, 1);
+  font-size: 4vw;
+  min-height: 100%;
+  position: relative;
+}
+h2{
+  font-size: 4vw;
+}
+.navbar{
+  background-color: #e49c30	!important;
+  height: 13vw;
+  width: 100vw;
+  position: fixed;
+  text-transform: uppercase;
+  top: 0;
+  box-shadow: 0 0 5px #032539;
+}
+.logo{
+  font-family: 'Megrim' !important;
+  float: left;
+  display: block;
+  padding: 1.5vw;
+  font-size: 5vw;
+  font-weight: bolder;
+}
+.menu{
+  float: right;
+  display: block;
+}
+.x{
+  float: right;
+  display: none;
+}
+a{
+  color: black;
+}
+a.menu{
+  padding: 1vw;
+}
+.menu-icon{
+  height: 6vw;
+  width: 6vw;
+}
+.menu-close{
+  height: 4vw;
+  width: 5vw;
+}
+.icon{
+  height: 9vw;
+  width: 9vw;
+  vertical-align: middle;
+}
+a{
+  text-decoration: none;
+  animation: none;
+}
+.op1{
+    font-size: 3vw;
+    display: none;
+    font-weight: bold;
+  }
+  
+.op2{
+    font-size: 3vw;
+    display: none;
+    font-weight: bold;
+  }
+.op3{
+    font-size: 3vw;
+    display: none;
+    font-weight: bold;
+  }
+  .op4{
+    font-size: 3vw;
+    display: none;
+    font-weight: bold;
+  }
+.content{
+      padding: 5px;
+      width: 96vw;
+}
+.content-head{
+  display: inline-flex;
+}
+.more{
+  float: right;
+  font-weight: bold;
+}
+footer{
+    display: inline-block;
+    height: auto;
+    width: 100vw;
+    background-color: #e49c30 !important;
+    bottom: 0;
+}
+.foot{
+    padding-top: 20px;
+}
+.dept{
+text-justify: center;
+margin-left: 10px; 
+
+
+}
+.cont{
+  border: 0.5px solid  rgb(160, 148, 148);
+  border-radius: 10px;
+  width: 33vw;
+  padding:3px;
+  margin: 4px;
+}
+.container{
+  display: inline-flex;
+  width: 99vw;
+}
+h5{
+  text-align: center;
+  font-size: 2vw;
+}
+button{
+  width: 20vw;
+  height: 10vw;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  background: #e49c30	 !important; 
+  color: white;
+  margin-left: 14vw; 
+  margin-right: 14vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw; 
+  border-radius: 5px;
+}
+.dept-list{
+  display: inline-flex;
+  margin: auto;
+}
+.more{
+  float: right;
+  padding: 5px;
+}
+.cont-header{
+  display: block;
+  margin-left: 10px; 
+}
+.main-cont{
+  width: 90vw;
+  margin-top: 12vw;
+}
+.poster-main{
+  width: 90vw;
+  height: 50vw;
+  margin: 5vw;
+}
+.dd{
+  border-radius: 50%;
+  width: 7vw;
+  height: 7vw;
+}
+.info{
+  display: block;
+}
+.designer{
+  padding-top: 10px;
+  margin: 20px; 
+}
+.sicon{
+  width: 5vw;
+  height: 5vw;
+  margin: 10px;
+  margin-bottom: 1px;
+}
+h5{
+  font-size: 3.5vw;
+}
+.gmap{
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw; 
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 20vw;
+  border: 1px solid black;
+}
+/*.cont:hover{
+  box-shadow: 0 0 15px black;
+  border: none;
+}*/
+.reg1{
+  display: none;
+  width: 20vw;
+  height: 10vw;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  background: bisque;
+  color: #FBF3F2; 
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto; 
+}
+.poster-main:hover{
+  box-shadow: 0 0 15px black;
+}
+#cont1{
+  margin-left: 9vw;
+  margin-right: 9vw; 
+}
+.CSE{
+  margin-top: 15vw;
+}
+#cont-img{
+  width: 26.5vw;
+  height: 28vw;
+  margin-left: 0.8vw; 
+  margin-right: 0.8vw; 
+}
+@media screen and (min-width: 620px)
+{
+  .x{
+    margin: 2vw;
+  }
+  #cont-img{
+    height: 28vw;
+    width: 27vw;
+  }
+  .cont{
+    border: 1px solid  rgb(160, 154, 154);
+    border-radius: 10px;
+    width: 100vw;
+    padding:10px;
+    margin: 10px;
+  }
+  button{
+    height: 5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .reg1{
+    height: 5vw;
+  }
+  .sicon{
+    width: 2vw;
+    height: 2vw;
+  }
+  .navbar{
+    height: 5vw;
+  }
+  .logo{
+    font-size: 2vw;
+    padding: 0px;
+  }
+  .cont:hover button{
+    display: block;
+  }
+  h1{
+    font-size: 1.5vw;
+  }
+  h2{
+    font-size: 1.5vw;
+  }
+  h5{
+    font-size: 1vw;
+  }
+  p{
+    font-size: 1.5vw;
+    font-weight: bolder;
+  }
+  h7{
+    font-size: 2vw;
+    font-weight: bolder;
+  }
+  .more{
+    font-size: 1.5vw;
+  }
+  .menu,.x,.respmenu{
+    display: none;
+  }
+  .deskmenu{
+    font-size: 2.5vw;
+    float: right;
+  }
+
+  .m1,.m2,.m3,.m4{
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding-right: 2vw;
+  }
+  .icon{
+    height: 4vw;
+    width: 4vw;
+    padding-left: 1vw;
+    padding-top: 0.5vw ;
+  }
+  .main-cont{
+    margin-top: 2vw;
+  }
+}
+@media screen and (max-width: 620px)
+{
+  .menu,.respmenu{
+    display: inherit;
+  }
+  .deskmenu{
+    display: none;
+  }
+  .menu-close{
+    margin-top: 2vw;
+  }
+  .menu{
+    padding: 3vw;
+  }
+  .menu-icon{
+    height: 4vw;
+    width: 5vw;
+    margin-top: 2vw;
+    vertical-align: middle;
+    margin-right: 3vw;
+  }
+}
+h1{
+  font-size: 4vw;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.app{
+  width:15vw;
+  height: 6vw;
+}
+.svit{
+  font-size: 5vw;
+}
+.m4:hover{
+  color: white;
+}
+@media screen and (min-width: 420px)
+{
+  .menu-icon{
+    width: 4vw;
+    height: 3vw;
+  }
+  .menu-close{
+    width: 4vw;
+    height: 3vw;
+    padding-top: 1vw;
+padding-right: 1vw;
+  }
+}
+.m1:hover,.m2:hover,.m3:hover{
+  color: white !important;
+}
+>>>>>>> 766bc7cdeaa3152b5c3327acb3e5c3cc7c875ad5
