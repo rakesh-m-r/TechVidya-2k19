@@ -1,0 +1,26 @@
+{
+  "name": "techfest",
+  "version": "1.0.0",
+  "description": "Simple webpack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Rakesh M R",
+  "license": "MIT",
+  "bugs": {},
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0"
+  }
+}

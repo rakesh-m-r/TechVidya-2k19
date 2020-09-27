@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 body{
   margin: 0;
   padding: 0;
@@ -20,12 +21,12 @@ h2{
   box-shadow: 0 0 5px #032539;
 }
 .logo{
+  font-family: 'Megrim' !important;
   float: left;
   display: block;
   padding: 1.5vw;
   font-size: 5vw;
   font-weight: bolder;
-  font-family: 'Open Sans', sans-serif;
 }
 .menu{
   float: right;
@@ -44,12 +45,10 @@ a.menu{
 .menu-icon{
   height: 6vw;
   width: 6vw;
-  padding: 1vw;
 }
 .menu-close{
   height: 4vw;
   width: 5vw;
-  margin:  2vw;
 }
 .icon{
   height: 9vw;
@@ -251,11 +250,11 @@ h5{
     height: 2vw;
   }
   .navbar{
-    height: 8vw;
+    height: 5vw;
   }
   .logo{
     font-size: 2vw;
-    font-family: 'Open Sans';
+    padding: 0px;
   }
   .cont:hover button{
     display: block;
@@ -285,7 +284,6 @@ h5{
   }
   .deskmenu{
     font-size: 2.5vw;
-    padding-top: 2vw;
     float: right;
   }
 
@@ -295,11 +293,13 @@ h5{
     padding-right: 2vw;
   }
   .icon{
-    height: 5vw;
-    width: 5vw;
+    height: 4vw;
+    width: 4vw;
+    padding-left: 1vw;
+    padding-top: 0.5vw ;
   }
   .main-cont{
-    margin-top: 7vw;
+    margin-top: 2vw;
   }
 }
 @media screen and (max-width: 620px)
@@ -348,6 +348,8 @@ h1{
   .menu-close{
     width: 4vw;
     height: 3vw;
+    padding-top: 1vw;
+padding-right: 1vw;
   }
 }
 .m1:hover,.m2:hover,.m3:hover{
